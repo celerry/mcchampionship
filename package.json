@@ -1,6 +1,6 @@
 {
 	"name": "mcchampionship",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "MCC API v1 wrapper",
 	"keywords": [
 		"MCC",
@@ -21,7 +21,8 @@
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"files": [
-		"/dist/*"
+		"/dist/**/*",
+        "/dist/*"
 	],
 	"module": "src/index.ts",
 	"type": "module",
