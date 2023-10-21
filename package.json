@@ -1,11 +1,35 @@
 {
-  "name": "mcchampionship",
-  "module": "src/index.ts",
-  "type": "module",
-  "devDependencies": {
-    "bun-types": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  }
+	"name": "mcchampionship",
+	"version": "1.0.0",
+	"description": "MCC API v1 wrapper",
+	"keywords": [
+		"MCC",
+		"MC Championship",
+		"Minecraft Championship",
+		"MCChampionship",
+		"Minecraft"
+	],
+	"homepage": "https://github.com/celerry/mcchampionship#readme",
+	"bugs": {
+		"url": "https://github.com/celerry/mcchampionship/issues"
+	},
+	"license": "CC0-1.0",
+	"author": {
+		"name": "celerry",
+		"url": "https://celerry.com"
+	},
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"/dist/*"
+	],
+	"module": "src/index.ts",
+	"type": "module",
+	"devDependencies": {
+		"bun-types": "latest",
+		"typescript": "^5.2.2"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
 }
